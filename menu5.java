@@ -23,6 +23,7 @@ public class menu5 extends Main{
         String kod_posta = scan.next();
         Statement stmt5 = con5.createStatement();
 
+        
         ResultSet rs2 = stmt5.executeQuery("SELECT * FROM " + tablename + " where Kod_Posta=" + "'" + kod_posta + "'");
         System.out.println("Результат: ");
         while (rs2.next()) {
