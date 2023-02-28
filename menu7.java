@@ -281,6 +281,7 @@ public class menu7 extends Main{
             stmt4.executeUpdate();
         }
 
+        
         System.out.println("Результат успешно сохранён в MySQL!");
         ResultSet rs3 = stmt4.executeQuery("SELECT * FROM " + tablename + "");
         System.out.println("Результат: ");
