@@ -26,6 +26,7 @@ public class menu3 extends Main{
         } catch (IOException ex) {
             ex.printStackTrace();
         }
+        
         String[][] rows = new String[lines.size()-1][11];
         for (int i = 1; i < lines.size(); i++) {
             for (int j = 0; j < 11; j++) {
