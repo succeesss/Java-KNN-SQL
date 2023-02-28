@@ -21,6 +21,7 @@ public class Main {
 
         return x;
     }
+    
 
     public static Double euclide_dist(Double x, Double y) {
         double distance;
