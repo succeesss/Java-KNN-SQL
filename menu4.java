@@ -10,6 +10,7 @@ import java.io.IOException;
 import static java.lang.Math.pow;
 
 
+
 public class menu4 extends Main{
     public static void main() throws SQLException{
         Scanner scan = new Scanner(System.in);
