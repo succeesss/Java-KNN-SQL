@@ -10,6 +10,7 @@ import java.io.IOException;
 import static java.lang.Math.pow;
 
 
+
 public class menu1 extends Main{
     public static void main() throws SQLException{
         DriverManager.registerDriver(new Driver());
