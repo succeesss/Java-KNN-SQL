@@ -41,6 +41,7 @@ public class menu6 extends Main{
             System.out.print(Arrays.toString(rs2.getString((11)).split(" "))); // Вывод 11 столбца
 
             System.out.println();
+            
         }
     }
 }
